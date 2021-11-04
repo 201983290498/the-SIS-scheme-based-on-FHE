@@ -1,0 +1,1196 @@
+﻿  CKKS.cpp
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(121,9): warning C4625: “seal::util::ReaderLock”: 已将复制构造函数隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(121,9): warning C4626: “seal::util::ReaderLock”: 已将对齐运算符隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(176,9): warning C4625: “seal::util::WriterLock”: 已将复制构造函数隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(176,9): warning C4626: “seal::util::WriterLock”: 已将对齐运算符隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(217,9): warning C4820: “seal::util::ReaderWriterLocker”:“3”字节填充添加在 数据成员“seal::util::ReaderWriterLocker::writer_locked_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(157,47): warning C4820: “seal::util::MemoryPoolHeadMT”:“6”字节填充添加在 数据成员“seal::util::MemoryPoolHeadMT::locked_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(164,9): warning C5220: “seal::util::MemoryPoolHeadMT::item_count_”: 具有易失限定类型的非静态数据成员不再推断出
+          编译器生成的复制/移动构造函数和复制/移动赋值运算符不常用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(159): message : 参见“seal::util::MemoryPoolHeadMT::item_count_”的声明
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(164,9): warning C5220: “seal::util::MemoryPoolHeadMT::first_item_”: 具有易失限定类型的非静态数据成员不再推断出
+          编译器生成的复制/移动构造函数和复制/移动赋值运算符不常用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(163): message : 参见“seal::util::MemoryPoolHeadMT::first_item_”的声明
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(202,41): warning C4820: “seal::util::MemoryPoolHeadST”:“7”字节填充添加在 数据成员“seal::util::MemoryPoolHeadST::clear_on_destruction_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(264,53): warning C4820: “seal::util::MemoryPoolMT”:“3”字节填充添加在 数据成员“seal::util::MemoryPoolMT::clear_on_destruction_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(266,48): warning C4820: “seal::util::MemoryPoolMT”:“4”字节填充添加在 数据成员“seal::util::MemoryPoolMT::pools_locker_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(295,48): warning C4820: “seal::util::MemoryPoolST”:“7”字节填充添加在 数据成员“seal::util::MemoryPoolST::clear_on_destruction_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(816,5): warning C4625: “seal::MMProfGuard”: 已将复制构造函数隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(816,5): warning C4626: “seal::MMProfGuard”: 已将对齐运算符隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(197,1): warning C4820: “seal::util::Pointer<seal::SEAL_BYTE,void>”:“7”字节填充添加在 数据成员“seal::util::Pointer<seal::SEAL_BYTE,void>::alias_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(712,1): warning C4820: “seal::util::ConstPointer<seal::SEAL_BYTE,void>”:“7”字节填充添加在 数据成员“seal::util::ConstPointer<seal::SEAL_BYTE,void>::alias_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(511,1): warning C4820: “seal::util::Pointer<T,void>”:“7”字节填充添加在 数据成员“seal::util::Pointer<T,void>::alias_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(1150): message : 查看对正在编译的 类 模板 实例化“seal::util::Pointer<T,void>”的引用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(69): message : 查看对正在编译的函数 模板 实例化“auto seal::util::allocate<uint64_t,,std::enable_if<true,void>>(size_t,seal::util::MemoryPool &)”的引用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(184,25): warning C4100: “uint64_count”: 未引用的形参
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(209,25): warning C4100: “uint64_count”: 未引用的形参
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(1134,1): warning C4820: “seal::util::ConstPointer<T,void>”:“7”字节填充添加在 数据成员“seal::util::ConstPointer<T,void>::alias_”后
+          with
+          [
+              T=T
+          ]
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(479): message : 查看对正在编译的 类 模板 实例化“seal::util::ConstPointer<T,void>”的引用
+          with
+          [
+              T=T
+          ]
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1647,5): warning C4820: “seal::BigUInt”:“4”字节填充添加在 数据成员“seal::BigUInt::bit_count_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(598,40): warning C4100: “postfix”: 未引用的形参
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(614,40): warning C4100: “postfix”: 未引用的形参
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptionparams.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomgen.h(121,30): warning C4820: “seal::FastPRNG”:“8”字节填充添加在 基类“seal::UniformRandomGenerator”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(311,5): warning C4820: “seal::SmallModulus”:“3”字节填充添加在 数据成员“seal::SmallModulus::is_prime_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptionparams.h(375,42): warning C4820: “seal::EncryptionParameters”:“7”字节填充添加在 数据成员“seal::EncryptionParameters::scheme_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\modulus.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(193,33): warning C4820: “seal::util::SmallNTTTables”:“7”字节填充添加在 数据成员“seal::util::SmallNTTTables::generated_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(209,38): warning C4820: “seal::util::SmallNTTTables”:“4”字节填充添加在 数据成员“seal::util::SmallNTTTables::coeff_count_power_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(190,38): warning C4820: “seal::util::BaseConverter”:“7”字节填充添加在 数据成员“seal::util::BaseConverter::generated_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(511,1): warning C4820: “seal::util::Pointer<seal::SmallModulus,void>”:“7”字节填充添加在 数据成员“seal::util::Pointer<seal::SmallModulus,void>::alias_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(201): message : 查看对正在编译的 类 模板 实例化“seal::util::Pointer<seal::SmallModulus,void>”的引用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(511,1): warning C4820: “seal::util::Pointer<seal::util::Pointer<T,void>,void>”:“7”字节填充添加在 数据成员“seal::util::Pointer<seal::util::Pointer<T,void>,void>::alias_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(216): message : 查看对正在编译的 类 模板 实例化“seal::util::Pointer<seal::util::Pointer<T,void>,void>”的引用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(511,1): warning C4820: “seal::util::Pointer<seal::util::SmallNTTTables,void>”:“7”字节填充添加在 数据成员“seal::util::Pointer<seal::util::SmallNTTTables,void>::alias_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(267): message : 查看对正在编译的 类 模板 实例化“seal::util::Pointer<seal::util::SmallNTTTables,void>”的引用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(94,33): warning C4820: “seal::EncryptionParameterQualifiers”:“2”字节填充添加在 数据成员“seal::EncryptionParameterQualifiers::using_descending_modulus_chain”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(511,1): warning C4820: “seal::util::Pointer<seal::util::BaseConverter,void>”:“7”字节填充添加在 数据成员“seal::util::Pointer<seal::util::BaseConverter,void>::alias_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(349): message : 查看对正在编译的 类 模板 实例化“seal::util::Pointer<seal::util::BaseConverter,void>”的引用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(349,63): warning C4820: “seal::SEALContext::ContextData”:“4”字节填充添加在 数据成员“seal::SEALContext::ContextData::qualifiers_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(359,66): warning C4820: “seal::SEALContext::ContextData”:“4”字节填充添加在 数据成员“seal::SEALContext::ContextData::total_coeff_modulus_bit_count_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(374,9): warning C4626: “seal::SEALContext::ContextData”: 已将对齐运算符隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(559,5): warning C4820: “seal::SEALContext”:“3”字节填充添加在 数据成员“seal::SEALContext::using_keyswitching_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\intarray.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(666,25): warning C4820: “seal::Ciphertext”:“7”字节填充添加在 数据成员“seal::Ciphertext::is_ntt_form_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(511,1): warning C4820: “seal::util::Pointer<std::complex<double>,void>”:“7”字节填充添加在 数据成员“seal::util::Pointer<std::complex<double>,void>::alias_”后
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ckks.h(744): message : 查看对正在编译的 类 模板 实例化“seal::util::Pointer<std::complex<double>,void>”的引用
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ckks.h(749,5): warning C4625: “seal::CKKSEncoder”: 已将复制构造函数隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ckks.h(749,5): warning C4626: “seal::CKKSEncoder”: 已将对齐运算符隐式定义为“已删除”
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\decryptor.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\intencoder.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptor.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\publickey.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\relinkeys.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\keygenerator.h(210,5): warning C4820: “seal::KeyGenerator”:“6”字节填充添加在 数据成员“seal::KeyGenerator::pk_generated_”后
+C:\Users\coder\source\repos\Project4\Project4\tools.h(17,1): warning C4820: “Error”:“4”字节填充添加在 数据成员“Error::dataScale”后
+C:\Users\coder\source\repos\Project4\Project4\tools.h(31,18): warning C4388: “<=”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(32,23): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(36,18): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(39,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\tools.h(39,3): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(39,36): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(40,18): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(52,18): warning C4388: “<=”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(53,23): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(57,18): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(60,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\tools.h(60,3): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(60,36): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(61,18): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(85,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(86,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(101,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(102,23): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(103,38): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(105,34): warning C5219: 从“unsigned __int64”隐式转换到“double”，可能会丢失数据
+C:\Users\coder\source\repos\Project4\Project4\tools.h(106,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(107,25): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(109,22): warning C5219: 从“unsigned __int64”隐式转换到“double”，可能会丢失数据
+C:\Users\coder\source\repos\Project4\Project4\tools.h(110,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\tools.h(110,29): warning C4365: “=”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(117,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(118,23): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(119,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(121,34): warning C5219: 从“unsigned __int64”隐式转换到“double”，可能会丢失数据
+C:\Users\coder\source\repos\Project4\Project4\tools.h(122,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(123,25): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(125,22): warning C5219: 从“unsigned __int64”隐式转换到“double”，可能会丢失数据
+C:\Users\coder\source\repos\Project4\Project4\tools.h(126,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\tools.h(126,29): warning C4365: “=”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(144,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(147,11): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(154,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\tools.h(159,11): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(26,71): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(26,71): warning C4365: “初始化”: 从“size_t”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(73,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(74,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(74,70): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(74,70): warning C4365: “=”: 从“size_t”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(78,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(82,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(82,24): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(88,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(88,70): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(88,70): warning C4365: “=”: 从“size_t”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(91,38): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(91,60): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(95,28): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(67,139): warning C4100: “relin_keys”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(107,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(108,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(108,70): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(108,70): warning C4365: “=”: 从“size_t”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(111,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(111,24): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(116,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(116,70): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(116,70): warning C4365: “=”: 从“size_t”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(118,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(118,32): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(123,28): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(106,17): warning C4101: “minn_p”: 未引用的局部变量
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(132,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(133,29): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(135,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(201,13): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(210,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(210,24): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(222,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(223,29): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(224,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(241,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(242,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(242,70): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(242,70): warning C4365: “=”: 从“size_t”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(245,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(245,24): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(250,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(250,70): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(250,70): warning C4365: “=”: 从“size_t”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(253,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(253,32): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(258,28): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(240,17): warning C4101: “minn_p”: 未引用的局部变量
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(267,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(268,29): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(270,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(262,192): warning C4100: “encoder”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\math_test.h(262,168): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(38,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(39,8): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(39,16): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(46,22): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(56,49): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(58,36): warning C4244: “参数”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(62,35): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(65,34): warning C4244: “参数”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(72,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(81,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(82,8): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(82,16): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(89,22): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(89,22): warning C4244: “参数”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(99,49): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(101,36): warning C4244: “参数”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(105,35): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(108,34): warning C4244: “参数”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(115,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(126,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(127,28): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(127,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(135,22): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(145,49): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(155,51): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(168,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(122,81): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(178,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(179,28): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(179,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(187,22): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(197,50): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(206,40): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(216,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(174,85): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(226,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(227,28): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(227,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(235,22): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(245,49): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(254,51): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(265,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(222,84): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\mymath.h(273,142): warning C4100: “encoder”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(127,1): warning C4820: “Params”:“4”字节填充添加在 数据成员“Params::baseLenOfModulus”后
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(71,19): warning C4458: “n”的声明隐藏了类成员
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(121,7): message : 参见“Params::n”的声明
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(96,31): warning C4458: “scale”的声明隐藏了类成员
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(125,10): message : 参见“Params::scale”的声明
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(114,30): warning C4458: “batches”的声明隐藏了类成员
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(122,9): message : 参见“Params::batches”的声明
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(199,17): warning C4820: “Norm”:“4”字节填充添加在 数据成员“Norm::modP”后
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(157,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(177,1): warning C4458: “ZERO”的声明隐藏了类成员
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(195,14): message : 参见“Norm::ZERO”的声明
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(179,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(180,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(181,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(167,86): warning C4100: “relin_keys”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(167,64): warning C4100: “evaluator”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(174,12): warning C4189: “row_size”: 局部变量已初始化但不引用
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(484,1): warning C4820: “Picture”:“4”字节填充添加在 数据成员“Picture::batches”后
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(227,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(228,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(251,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(252,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(253,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(259,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(260,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(269,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(270,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(276,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(276,25): warning C4244: “=”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(290,1): warning C4365: “参数”: 从“int”转换到“uint64_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(293,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(294,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(299,42): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(302,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(311,44): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(326,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(327,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(349,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(350,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(356,27): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(357,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(359,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(374,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(375,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(334,83): warning C4100: “evaluator”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(397,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(398,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(404,27): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(405,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(405,47): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(407,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(407,57): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(407,60): warning C4244: “参数”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+          and
+          [
+              _Ty=double
+          ]
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(423,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(424,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(382,83): warning C4100: “evaluator”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(432,32): warning C4458: “batches”的声明隐藏了类成员
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(483,7): message : 参见“Picture::batches”的声明
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(448,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(449,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(466,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(467,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(468,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(628,26): warning C4820: “SharePic”:“4”字节填充添加在 数据成员“SharePic::range_x”后
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(639,20): warning C4820: “SharePic”:“4”字节填充添加在 数据成员“SharePic::X_len”后
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(499,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(499,1): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(501,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(505,34): warning C4244: “参数”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(518,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(519,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(526,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(527,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(527,1): warning C4365: “参数”: 从“int”转换到“uint64_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(528,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(537,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(537,1): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(541,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(552,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(552,1): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(556,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(551,121): warning C4100: “context”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(569,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(570,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(574,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(593,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(594,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(613,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(613,34): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(614,1): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(614,28): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(10,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(10,24): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(13,29): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(16,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(23,27): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(24,14): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(32,16): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(39,15): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(48,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(48,24): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(56,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(57,12): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(66,14): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(68,14): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(68,94): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(68,94): warning C4365: “=”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(73,29): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(76,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(80,16): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(80,44): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(85,15): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(104,22): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(109,24): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(137,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(137,43): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(137,38): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(141,32): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(145,32): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(147,30): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(147,25): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(159,17): warning C4456: “tem”的声明隐藏了上一个本地声明
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(92,7): message : 参见“tem”的声明
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(161,19): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(161,42): warning C4365: “参数”: 从“__int64”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(161,47): warning C4242: “+=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(164,17): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(165,33): warning C4244: “参数”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(180,22): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(185,24): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(213,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(213,43): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(213,38): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(217,32): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(221,32): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(223,30): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(223,25): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(235,17): warning C4456: “tem”的声明隐藏了上一个本地声明
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(92,7): message : 参见“tem”的声明
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(237,19): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(237,42): warning C4365: “参数”: 从“__int64”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(237,47): warning C4242: “+=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(240,17): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(241,33): warning C4244: “参数”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(255,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(257,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(258,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(258,35): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(258,35): warning C4244: “参数”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(259,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(259,36): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(262,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(263,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(277,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(279,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(280,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(280,35): warning C4244: “参数”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(281,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(281,36): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(284,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\PlainProcess.h(285,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(86,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(87,32): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(122,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(124,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(126,24): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(126,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(120,73): warning C4100: “encoder”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(145,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(147,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(149,24): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(149,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(141,63): warning C4100: “encoder”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(141,39): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(163,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(165,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(167,24): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(167,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(171,5): warning C4456: “i”的声明隐藏了上一个本地声明
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(163,12): message : 参见“i”的声明
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(171,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(172,48): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(159,56): warning C4100: “encoder”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(159,31): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(185,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(187,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(189,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(183,30): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(204,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(206,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(208,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(210,25): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(200,40): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(223,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(225,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(227,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(229,25): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(231,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(232,47): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(219,32): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(219,15): warning C4100: “ONES”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(287,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(288,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(288,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(301,22): warning C4456: “tem”的声明隐藏了上一个本地声明
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(286,14): message : 参见“tem”的声明
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(304,29): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(304,51): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(322,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(323,47): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(326,22): warning C4244: “参数”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(329,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(330,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(369,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(370,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(370,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(380,22): warning C4456: “tem”的声明隐藏了上一个本地声明
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(368,14): message : 参见“tem”的声明
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(383,29): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(383,51): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(384,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(385,46): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(339,35): warning C4100: “encryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(431,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(431,49): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(404,35): warning C4100: “encryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(471,29): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(471,51): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(444,106): warning C4100: “context”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(443,35): warning C4100: “encryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(504,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(506,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(508,20): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(508,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(530,24): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(530,47): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(533,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\SealSchme.h(488,14): warning C4100: “decryptor”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(40,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(41,23): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(50,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(51,30): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(52,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(53,27): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(55,15): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(66,44): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(70,53): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(72,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(73,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(86,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(89,13): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(73,19): warning C4189: “Tem”: 局部变量已初始化但不引用
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(103,38): warning C4365: “初始化”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(108,32): warning C4365: “参数”: 从“int”转换到“uint64_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(124,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(125,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(125,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(126,54): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(126,59): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(126,77): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(126,85): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(127,54): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(127,60): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(127,78): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(127,87): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(142,29): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(145,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(146,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(146,45): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(147,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(147,47): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(150,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(151,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(215,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(216,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(236,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(237,28): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(237,33): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(239,13): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(249,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(250,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(261,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(264,13): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(281,38): warning C4365: “初始化”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(317,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(318,36): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(318,79): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(318,41): warning C4244: “参数”: 从“_Ty”转换到“double”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(319,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(319,64): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(320,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(322,41): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(322,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(323,23): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(323,64): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(323,70): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(325,36): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(325,81): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(326,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(326,65): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(355,33): warning C4244: “参数”: 从“__int64”转换到“double”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(357,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(358,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(359,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(362,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(363,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(275,61): warning C4100: “p_mo”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(385,38): warning C4365: “初始化”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(421,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(422,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(424,41): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(424,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(425,23): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(425,64): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(425,70): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(425,102): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(425,112): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(427,36): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(427,81): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(428,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(428,65): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(448,33): warning C4244: “参数”: 从“__int64”转换到“double”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(450,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(451,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(451,38): warning C4244: “参数”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+          and
+          [
+              _Ty=double
+          ]
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(452,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(455,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(456,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(379,61): warning C4100: “p_mo”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(509,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(510,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(510,31): warning C4244: “参数”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int64_t
+          ]
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(512,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(512,31): warning C4365: “初始化”: 从“unsigned __int64”转换到“int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(535,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(537,10): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(537,22): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(540,13): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(551,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(552,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(563,21): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(566,13): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(493,10): warning C4189: “row_size”: 局部变量已初始化但不引用
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(582,38): warning C4365: “初始化”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(615,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(616,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(617,15): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(617,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(619,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(620,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(620,64): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(621,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(623,41): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(623,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(624,15): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(624,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(624,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(626,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(627,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(627,65): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(657,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(658,13): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(662,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(663,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(664,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(667,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(668,31): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(576,61): warning C4100: “p_mo”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(599,10): warning C4189: “row_size”: 局部变量已初始化但不引用
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(61,44): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(77,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(78,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(91,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(92,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(93,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(94,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(95,40): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(99,20): warning C4365: “参数”: 从“int”转换到“seal::Plaintext::size_type”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(104,20): warning C4365: “参数”: 从“int”转换到“seal::Plaintext::size_type”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(11,138): warning C4100: “p_mo”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(11,119): warning C4100: “degree”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(11,82): warning C4100: “datain”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(179,44): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(197,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(198,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(211,23): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(212,33): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(213,39): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(214,34): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(215,40): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(219,20): warning C4365: “参数”: 从“int”转换到“seal::Plaintext::size_type”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(224,20): warning C4365: “参数”: 从“int”转换到“seal::Plaintext::size_type”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(119,140): warning C4100: “p_mo”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(119,121): warning C4100: “degree”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(119,83): warning C4100: “datain”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(311,46): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(329,27): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(330,23): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(342,25): warning C4388: “<”: 有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(343,35): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(344,41): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(345,36): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(346,42): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(350,22): warning C4365: “参数”: 从“int”转换到“seal::Plaintext::size_type”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(355,22): warning C4365: “参数”: 从“int”转换到“seal::Plaintext::size_type”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(239,140): warning C4100: “p_mo”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(239,121): warning C4100: “degree”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(239,83): warning C4100: “datain”: 未引用的形参
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(412,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(432,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(449,21): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(501,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(501,16): warning C4365: “参数”: 从“time_t”转换到“unsigned int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(540,81): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(540,81): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(544,96): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(544,96): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(544,96): warning C4242: “参数”: 从“int”转换到“uint16_t”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(544,96): warning C4365: “参数”: 从“int”转换到“uint16_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(544,96): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(556,40): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(571,123): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(571,123): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(586,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(586,16): warning C4365: “参数”: 从“time_t”转换到“unsigned int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(628,85): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(628,85): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(633,79): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(633,79): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(633,79): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(645,40): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(684,154): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(684,154): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(685,158): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(685,158): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(772,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(772,16): warning C4365: “参数”: 从“time_t”转换到“unsigned int”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(815,85): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(815,85): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(820,78): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(820,78): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(820,78): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(832,40): warning C4365: “参数”: 从“int”转换到“const unsigned __int64”，有符号/无符号不匹配
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(869,162): warning C4800: 从“int”到 bool 的隐式转换。信息可能丢失
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(869,162): message : 请考虑使用显式强制转换或比较 0 来避免此警告
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(250,1): warning C4127: 条件表达式是常量
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(350): message : 查看对正在编译的函数 模板 实例化“bool seal::util::fits_in<T,S,void,void>(S) noexcept”的引用
+          with
+          [
+              T=int,
+              S=size_t
+          ]
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(371): message : 查看对正在编译的函数 模板 实例化“T seal::util::safe_cast<int,size_t,void,void>(S)”的引用
+          with
+          [
+              T=int,
+              S=size_t
+          ]
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(253,1): warning C4127: 条件表达式是常量
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(257,1): warning C4127: 条件表达式是常量
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(263,1): warning C4127: 条件表达式是常量
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(270,1): warning C4127: 条件表达式是常量
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(280,1): warning C4127: 条件表达式是常量
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(391,1): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(391): message : 查看对正在编译的函数 模板 实例化“T seal::util::reverse_bits<uint32_t,void>(T) noexcept”的引用
+          with
+          [
+              T=uint32_t
+          ]
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(407): message : 查看对正在编译的函数 模板 实例化“T seal::util::reverse_bits<T,void>(T) noexcept”的引用
+          with
+          [
+              T=size_t
+          ]
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\batchencoder.h(387): message : 查看对正在编译的函数 模板 实例化“T seal::util::reverse_bits<size_t,void>(T,int)”的引用
+          with
+          [
+              T=size_t
+          ]
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(392,1): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\hestdparms.h(12,15): warning C4514: “SEAL_HE_STD_PARMS_128_TC”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\hestdparms.h(57,15): warning C4514: “SEAL_HE_STD_PARMS_128_TQ”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\hestdparms.h(72,15): warning C4514: “SEAL_HE_STD_PARMS_192_TQ”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\hestdparms.h(87,15): warning C4514: “SEAL_HE_STD_PARMS_256_TQ”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(410,21): warning C4514: “seal::util::get_msb_index_generic”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(451,21): warning C4514: “seal::util::is_hex_char”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(468,21): warning C4514: “seal::util::nibble_to_upper_hex”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\common.h(525,20): warning C4514: “seal::util::get_hex_string_bit_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(71,13): warning C4514: “seal::util::ReaderLock::ReaderLock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(75,13): warning C4514: “seal::util::ReaderLock::ReaderLock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(96,25): warning C4514: “seal::util::ReaderLock::owns_lock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(108,32): warning C4514: “seal::util::ReaderLock::operator =”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(126,13): warning C4514: “seal::util::WriterLock::WriterLock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(130,13): warning C4514: “seal::util::WriterLock::WriterLock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(151,25): warning C4514: “seal::util::WriterLock::owns_lock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(163,32): warning C4514: “seal::util::WriterLock::operator =”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(194,31): warning C4514: “seal::util::ReaderWriterLocker::acquire_write”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(199,31): warning C4514: “seal::util::ReaderWriterLocker::try_acquire_read”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\locks.h(204,31): warning C4514: “seal::util::ReaderWriterLocker::try_acquire_write”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(39,13): warning C4514: “seal::util::MemoryPoolItem::MemoryPoolItem”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(48,37): warning C4514: “seal::util::MemoryPoolItem::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(58,42): warning C4514: “seal::util::MemoryPoolItem::next”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(78,17): warning C4514: “seal::util::MemoryPoolHead::allocation::allocation”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\mempool.h(272,13): warning C4514: “seal::util::MemoryPoolST::MemoryPoolST”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(190,28): warning C4514: “seal::MemoryPoolHandle::pool_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(200,28): warning C4514: “seal::MemoryPoolHandle::alloc_byte_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(208,21): warning C4514: “seal::MemoryPoolHandle::use_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(225,21): warning C4514: “seal::MemoryPoolHandle::operator ==”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(235,21): warning C4514: “seal::MemoryPoolHandle::operator !=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(371,9): warning C4514: “seal::MMProfFixed::MMProfFixed”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(458,13): warning C4514: “seal::MemoryManager::SwitchProfile”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(473,47): warning C4514: “seal::MemoryManager::SwitchProfile”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(586,9): warning C4514: “seal::MMProfGuard::MMProfGuard”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(611,9): warning C4514: “seal::MMProfGuard::MMProfGuard”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(633,21): warning C4514: “seal::MMProfGuard::try_lock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(659,21): warning C4514: “seal::MMProfGuard::lock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(680,21): warning C4514: “seal::MMProfGuard::try_lock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(730,21): warning C4514: “seal::MMProfGuard::try_lock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(777,21): warning C4514: “seal::MMProfGuard::unlock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(793,10): warning C4514: “seal::MMProfGuard::~MMProfGuard”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\memorymanager.h(807,21): warning C4514: “seal::MMProfGuard::owns_lock”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(42,13): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::Pointer”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(48,31): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::operator []”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(53,37): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::operator []”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(58,26): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::operator =”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(64,25): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::is_set”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(69,31): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::get”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(74,37): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::get”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(79,31): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::operator ->”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(84,37): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::operator ->”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(89,31): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::operator *”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(94,37): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::operator *”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(99,25): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::is_alias”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(152,13): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::operator bool”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(157,46): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::Owning”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(162,46): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::Aliasing”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(177,13): warning C4514: “seal::util::Pointer<seal::SEAL_BYTE,void>::Pointer”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(537,13): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::ConstPointer”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(555,13): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::ConstPointer”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(561,26): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::operator =”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(567,26): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::operator =”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(573,37): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::operator []”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(578,25): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::is_set”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(583,37): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::get”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(588,37): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::operator ->”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(593,37): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::operator *”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(665,13): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::operator bool”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(670,32): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::Owning”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(676,32): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::Aliasing”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\pointer.h(692,13): warning C4514: “seal::util::ConstPointer<seal::SEAL_BYTE,void>::ConstPointer”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(25,21): warning C4514: “seal::util::hex_string_to_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(167,21): warning C4514: “seal::util::is_high_bit_set_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(183,21): warning C4514: “seal::util::is_bit_set_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(361,20): warning C4514: “seal::util::get_power_of_two_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(397,20): warning C4514: “seal::util::get_power_of_two_minus_one_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(467,21): warning C4514: “seal::util::duplicate_uint_if_needed”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(551,21): warning C4514: “seal::util::is_greater_than_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(563,21): warning C4514: “seal::util::is_less_than_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(569,21): warning C4514: “seal::util::is_less_than_or_equal_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(581,21): warning C4514: “seal::util::is_not_equal_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(587,21): warning C4514: “seal::util::is_greater_than_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(595,21): warning C4514: “seal::util::is_greater_than_or_equal_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(603,21): warning C4514: “seal::util::is_less_than_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(611,21): warning C4514: “seal::util::is_less_than_or_equal_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(619,21): warning C4514: “seal::util::is_equal_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(627,21): warning C4514: “seal::util::is_not_equal_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintcore.h(646,30): warning C4514: “seal::util::hamming_weight_split”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(453,21): warning C4514: “seal::util::left_shift_uint128”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(503,21): warning C4514: “seal::util::right_shift_uint128”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(551,21): warning C4514: “seal::util::left_shift_uint192”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(609,21): warning C4514: “seal::util::right_shift_uint192”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(667,21): warning C4514: “seal::util::half_round_up_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(861,21): warning C4514: “seal::util::multiply_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(872,21): warning C4514: “seal::util::multiply_truncate_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(883,21): warning C4514: “seal::util::divide_uint_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarith.h(894,21): warning C4514: “seal::util::divide_uint128_uint64_inplace”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithmod.h(15,21): warning C4514: “seal::util::increment_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithmod.h(53,21): warning C4514: “seal::util::decrement_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithmod.h(89,21): warning C4514: “seal::util::negate_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithmod.h(127,21): warning C4514: “seal::util::div2_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithmod.h(219,21): warning C4514: “seal::util::sub_uint_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(197,21): warning C4514: “seal::BigUInt::is_alias”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(355,33): warning C4514: “seal::BigUInt::operator []”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(377,27): warning C4514: “seal::BigUInt::operator []”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(419,21): warning C4514: “seal::BigUInt::alias”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(471,21): warning C4514: “seal::BigUInt::unalias”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(536,24): warning C4514: “seal::BigUInt::operator +”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(546,24): warning C4514: “seal::BigUInt::operator -”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(557,24): warning C4514: “seal::BigUInt::operator ~”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(572,25): warning C4514: “seal::BigUInt::operator ++”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(587,25): warning C4514: “seal::BigUInt::operator --”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(598,24): warning C4514: “seal::BigUInt::operator ++”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(614,24): warning C4514: “seal::BigUInt::operator --”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(647,24): warning C4514: “seal::BigUInt::operator +”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(678,24): warning C4514: “seal::BigUInt::operator -”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(709,24): warning C4514: “seal::BigUInt::operator *”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(734,24): warning C4514: “seal::BigUInt::operator /”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(778,24): warning C4514: “seal::BigUInt::operator ^”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(822,24): warning C4514: “seal::BigUInt::operator &”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(866,24): warning C4514: “seal::BigUInt::operator |”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(893,20): warning C4514: “seal::BigUInt::compareto”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(918,21): warning C4514: “seal::BigUInt::operator <”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(943,21): warning C4514: “seal::BigUInt::operator >”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(968,21): warning C4514: “seal::BigUInt::operator <=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(993,21): warning C4514: “seal::BigUInt::operator >=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1018,21): warning C4514: “seal::BigUInt::operator ==”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1042,21): warning C4514: “seal::BigUInt::operator !=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1057,24): warning C4514: “seal::BigUInt::operator <<”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1079,24): warning C4514: “seal::BigUInt::operator >>”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1133,25): warning C4514: “seal::BigUInt::operator +=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1174,25): warning C4514: “seal::BigUInt::operator -=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1209,25): warning C4514: “seal::BigUInt::operator *=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1238,25): warning C4514: “seal::BigUInt::operator /=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1279,25): warning C4514: “seal::BigUInt::operator ^=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1320,25): warning C4514: “seal::BigUInt::operator &=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1361,25): warning C4514: “seal::BigUInt::operator |=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1378,25): warning C4514: “seal::BigUInt::operator <<=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1400,25): warning C4514: “seal::BigUInt::operator >>=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1442,24): warning C4514: “seal::BigUInt::divrem”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1490,24): warning C4514: “seal::BigUInt::modinv”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1549,21): warning C4514: “seal::BigUInt::trymodinv”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1583,31): warning C4514: “seal::BigUInt::of”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1597,21): warning C4514: “seal::BigUInt::duplicate_to”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\biguint.h(1610,21): warning C4514: “seal::BigUInt::duplicate_from”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\aes.h(28,9): warning C4514: “seal::AESEncryptor::AESEncryptor”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\aes.h(45,26): warning C4514: “seal::AESEncryptor::ecb_encrypt”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\aes.h(75,26): warning C4514: “seal::AESDecryptor::ecb_decrypt”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomgen.h(92,9): warning C4514: “seal::FastPRNG::FastPRNG”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomgen.h(159,9): warning C4514: “seal::FastPRNGFactory::FastPRNGFactory”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomgen.h(177,23): warning C4514: “seal::FastPRNGFactory::random_uint64”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(76,30): warning C4514: “seal::SmallModulus::operator =”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(93,28): warning C4514: “seal::SmallModulus::uint64_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(101,32): warning C4514: “seal::SmallModulus::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(127,21): warning C4514: “seal::SmallModulus::is_zero”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(135,21): warning C4514: “seal::SmallModulus::is_prime”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(145,21): warning C4514: “seal::SmallModulus::operator ==”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(155,21): warning C4514: “seal::SmallModulus::operator ==”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(165,21): warning C4514: “seal::SmallModulus::operator !=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(175,21): warning C4514: “seal::SmallModulus::operator !=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(185,21): warning C4514: “seal::SmallModulus::operator <”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(195,21): warning C4514: “seal::SmallModulus::operator <”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(205,21): warning C4514: “seal::SmallModulus::operator <=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(215,21): warning C4514: “seal::SmallModulus::operator <=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(225,21): warning C4514: “seal::SmallModulus::operator >”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(235,21): warning C4514: “seal::SmallModulus::operator >”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(245,21): warning C4514: “seal::SmallModulus::operator >=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\smallmodulus.h(255,21): warning C4514: “seal::SmallModulus::operator >=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\hash.h(27,32): warning C4514: “seal::util::HashFunction::sha3_hash”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\hash.h(64,41): warning C4514: “seal::util::HashFunction::rot”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\hash.h(71,32): warning C4514: “seal::util::HashFunction::sponge_absorb”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\hash.h(117,32): warning C4514: “seal::util::HashFunction::sponge_squeeze”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptionparams.h(99,9): warning C4514: “seal::EncryptionParameters::EncryptionParameters”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptionparams.h(246,21): warning C4514: “seal::EncryptionParameters::set_random_generator”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptionparams.h(287,63): warning C4514: “seal::EncryptionParameters::random_generator”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptionparams.h(300,21): warning C4514: “seal::EncryptionParameters::operator ==”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptionparams.h(313,21): warning C4514: “seal::EncryptionParameters::operator !=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\modulus.h(73,30): warning C4514: “seal::CoeffModulus::MaxBitCount”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\modulus.h(179,49): warning C4514: “seal::PlainModulus::Batching”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(18,13): warning C4514: “seal::util::SmallNTTTables::SmallNTTTables”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(32,25): warning C4514: “seal::util::SmallNTTTables::is_generated”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(41,34): warning C4514: “seal::util::SmallNTTTables::get_root”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(52,34): warning C4514: “seal::util::SmallNTTTables::get_from_root_powers”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(67,34): warning C4514: “seal::util::SmallNTTTables::get_from_scaled_root_powers”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(82,34): warning C4514: “seal::util::SmallNTTTables::get_from_inv_root_powers”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(97,34): warning C4514: “seal::util::SmallNTTTables::get_from_scaled_inv_root_powers”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(112,34): warning C4514: “seal::util::SmallNTTTables::get_from_inv_root_powers_div_two”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(128,34): warning C4514: “seal::util::SmallNTTTables::get_from_scaled_inv_root_powers_div_two”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(144,41): warning C4514: “seal::util::SmallNTTTables::get_inv_degree_modulo”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\smallntt.h(165,32): warning C4514: “seal::util::SmallNTTTables::coeff_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(22,13): warning C4514: “seal::util::BaseConverter::BaseConverter”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(87,25): warning C4514: “seal::util::BaseConverter::is_generated”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(92,25): warning C4514: “seal::util::BaseConverter::coeff_base_mod_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(97,25): warning C4514: “seal::util::BaseConverter::aux_base_mod_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(102,26): warning C4514: “seal::util::BaseConverter::get_plain_gamma_product”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(107,26): warning C4514: “seal::util::BaseConverter::get_neg_inv_coeff”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(112,26): warning C4514: “seal::util::BaseConverter::get_plain_gamma_array”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(122,34): warning C4514: “seal::util::BaseConverter::get_inv_gamma”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(127,26): warning C4514: “seal::util::BaseConverter::get_bsk_small_ntt_tables”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(132,25): warning C4514: “seal::util::BaseConverter::bsk_base_mod_count”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(137,26): warning C4514: “seal::util::BaseConverter::get_bsk_mod_array”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(142,26): warning C4514: “seal::util::BaseConverter::get_msk”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(147,26): warning C4514: “seal::util::BaseConverter::get_m_tilde”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(152,26): warning C4514: “seal::util::BaseConverter::get_mtilde_inv_coeff_products_mod_coeff”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(157,26): warning C4514: “seal::util::BaseConverter::get_inv_coeff_mod_mtilde”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(167,26): warning C4514: “seal::util::BaseConverter::get_inv_last_coeff_mod_array”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\baseconverter.h(172,26): warning C4514: “seal::util::BaseConverter::get_coeff_base_products_mod_msk”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(187,26): warning C4514: “seal::SEALContext::ContextData::parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(243,26): warning C4514: “seal::SEALContext::ContextData::plain_ntt_tables”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(252,41): warning C4514: “seal::SEALContext::ContextData::coeff_div_plain_modulus”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(261,34): warning C4514: “seal::SEALContext::ContextData::plain_upper_half_threshold”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(272,41): warning C4514: “seal::SEALContext::ContextData::plain_upper_half_increment”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(299,41): warning C4514: “seal::SEALContext::ContextData::upper_half_increment”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(309,25): warning C4514: “seal::SEALContext::ContextData::prev_context_data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(319,25): warning C4514: “seal::SEALContext::ContextData::next_context_data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(334,13): warning C4514: “seal::SEALContext::ContextData::ContextData”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(446,21): warning C4514: “seal::SEALContext::last_context_data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(457,21): warning C4514: “seal::SEALContext::parameters_set”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(469,22): warning C4514: “seal::SEALContext::key_parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(487,22): warning C4514: “seal::SEALContext::last_parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\context.h(500,21): warning C4514: “seal::SEALContext::using_keyswitching”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(86,9): warning C4514: “seal::Ciphertext::Ciphertext”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(109,9): warning C4514: “seal::Ciphertext::Ciphertext”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(135,9): warning C4514: “seal::Ciphertext::Ciphertext”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(165,9): warning C4514: “seal::Ciphertext::Ciphertext”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(223,21): warning C4514: “seal::Ciphertext::reserve”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(271,21): warning C4514: “seal::Ciphertext::resize”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(295,21): warning C4514: “seal::Ciphertext::resize”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(307,21): warning C4514: “seal::Ciphertext::release”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(335,31): warning C4514: “seal::Ciphertext::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(343,37): warning C4514: “seal::Ciphertext::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(399,31): warning C4514: “seal::Ciphertext::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(451,31): warning C4514: “seal::Ciphertext::operator []”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(466,37): warning C4514: “seal::Ciphertext::operator []”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(496,26): warning C4514: “seal::Ciphertext::size”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(514,26): warning C4514: “seal::Ciphertext::size_capacity”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(536,21): warning C4514: “seal::Ciphertext::is_transparent”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(575,21): warning C4514: “seal::Ciphertext::load”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(590,21): warning C4514: “seal::Ciphertext::is_ntt_form”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(598,22): warning C4514: “seal::Ciphertext::is_ntt_form”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ciphertext.h(637,22): warning C4514: “seal::Ciphertext::scale”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(58,28): warning C4514: “seal::util::poly_to_dec_string”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(104,21): warning C4514: “seal::util::set_zero_poly”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(116,21): warning C4514: “seal::util::allocate_zero_poly”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(123,31): warning C4514: “seal::util::get_poly_coeff”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(147,21): warning C4514: “seal::util::set_poly_poly”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(178,21): warning C4514: “seal::util::is_equal_poly_poly”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(225,21): warning C4514: “seal::util::is_one_zero_one_poly”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(257,28): warning C4514: “seal::util::get_significant_coeff_count_poly”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(284,21): warning C4514: “seal::util::duplicate_poly_if_needed”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(307,21): warning C4514: “seal::util::are_poly_coefficients_less_than”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\polycore.h(344,21): warning C4514: “seal::util::are_poly_coefficients_less_than”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(92,9): warning C4514: “seal::Plaintext::Plaintext”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(110,9): warning C4514: “seal::Plaintext::Plaintext”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(144,9): warning C4514: “seal::Plaintext::Plaintext”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(172,9): warning C4514: “seal::Plaintext::Plaintext”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(186,14): warning C4514: “seal::Plaintext::reserve”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(203,21): warning C4514: “seal::Plaintext::shrink_to_fit”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(212,21): warning C4514: “seal::Plaintext::release”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(288,20): warning C4514: “seal::Plaintext::operator =”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(305,21): warning C4514: “seal::Plaintext::set_zero”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(326,21): warning C4514: “seal::Plaintext::set_zero”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(338,21): warning C4514: “seal::Plaintext::set_zero”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(346,31): warning C4514: “seal::Plaintext::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(401,37): warning C4514: “seal::Plaintext::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(420,37): warning C4514: “seal::Plaintext::operator []”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(471,21): warning C4514: “seal::Plaintext::operator !=”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(480,21): warning C4514: “seal::Plaintext::is_zero”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(490,26): warning C4514: “seal::Plaintext::capacity”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(547,28): warning C4514: “seal::Plaintext::to_string”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\plaintext.h(588,21): warning C4514: “seal::Plaintext::load”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\numth.h(144,29): warning C4514: “seal::util::get_prime”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithsmallmod.h(18,30): warning C4514: “seal::util::increment_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithsmallmod.h(36,30): warning C4514: “seal::util::decrement_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithsmallmod.h(72,30): warning C4514: “seal::util::div2_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithsmallmod.h(99,30): warning C4514: “seal::util::add_uint_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithsmallmod.h(122,30): warning C4514: “seal::util::sub_uint_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithsmallmod.h(233,21): warning C4514: “seal::util::modulo_uint_inplace”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithsmallmod.h(256,30): warning C4514: “seal::util::modulo_uint”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\util\uintarithsmallmod.h(288,21): warning C4514: “seal::util::try_invert_uint_mod”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ckks.h(32,33): warning C4514: “seal::from_complex”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ckks.h(218,21): warning C4514: “seal::CKKSEncoder::encode”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ckks.h(249,21): warning C4514: “seal::CKKSEncoder::encode”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\secretkey.h(75,20): warning C4514: “seal::SecretKey::operator =”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\secretkey.h(93,22): warning C4514: “seal::SecretKey::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\secretkey.h(101,22): warning C4514: “seal::SecretKey::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\secretkey.h(113,21): warning C4514: “seal::SecretKey::save”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\secretkey.h(147,21): warning C4514: “seal::SecretKey::load”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\secretkey.h(164,22): warning C4514: “seal::SecretKey::parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\secretkey.h(174,22): warning C4514: “seal::SecretKey::parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\secretkey.h(182,33): warning C4514: “seal::SecretKey::pool”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\intencoder.h(180,19): warning C4514: “seal::IntegerEncoder::encode”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\intencoder.h(197,14): warning C4514: “seal::IntegerEncoder::encode”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\intencoder.h(208,14): warning C4514: “seal::IntegerEncoder::encode”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\intencoder.h(216,29): warning C4514: “seal::IntegerEncoder::plain_modulus”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\publickey.h(71,22): warning C4514: “seal::PublicKey::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\publickey.h(79,22): warning C4514: “seal::PublicKey::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\publickey.h(93,21): warning C4514: “seal::PublicKey::save”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\publickey.h(126,21): warning C4514: “seal::PublicKey::load”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\publickey.h(141,22): warning C4514: “seal::PublicKey::parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\publickey.h(149,22): warning C4514: “seal::PublicKey::parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\encryptor.h(107,21): warning C4514: “seal::Encryptor::encrypt_zero”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\kswitchkeys.h(80,28): warning C4514: “seal::KSwitchKeys::size”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\kswitchkeys.h(92,22): warning C4514: “seal::KSwitchKeys::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\kswitchkeys.h(111,22): warning C4514: “seal::KSwitchKeys::data”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\kswitchkeys.h(140,22): warning C4514: “seal::KSwitchKeys::parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\kswitchkeys.h(150,22): warning C4514: “seal::KSwitchKeys::parms_id”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\kswitchkeys.h(188,21): warning C4514: “seal::KSwitchKeys::load”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\kswitchkeys.h(204,33): warning C4514: “seal::KSwitchKeys::pool”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\relinkeys.h(83,21): warning C4514: “seal::RelinKeys::has_key”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\relinkeys.h(99,22): warning C4514: “seal::RelinKeys::key”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\galoiskeys.h(65,21): warning C4514: “seal::GaloisKeys::has_key”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\galoiskeys.h(78,28): warning C4514: “seal::GaloisKeys::key”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(138,21): warning C4514: “seal::Evaluator::negate”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(339,21): warning C4514: “seal::Evaluator::square”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(393,21): warning C4514: “seal::Evaluator::relinearize”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(436,21): warning C4514: “seal::Evaluator::mod_switch_to_next_inplace”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(477,21): warning C4514: “seal::Evaluator::mod_switch_to_next”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(525,21): warning C4514: “seal::Evaluator::mod_switch_to”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(565,21): warning C4514: “seal::Evaluator::mod_switch_to”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(654,21): warning C4514: “seal::Evaluator::rescale_to”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(778,21): warning C4514: “seal::Evaluator::add_plain”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(811,21): warning C4514: “seal::Evaluator::sub_plain”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(858,21): warning C4514: “seal::Evaluator::multiply_plain”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(911,21): warning C4514: “seal::Evaluator::transform_to_ntt”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(943,21): warning C4514: “seal::Evaluator::transform_to_ntt”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(975,21): warning C4514: “seal::Evaluator::transform_from_ntt”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(1051,21): warning C4514: “seal::Evaluator::apply_galois”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(1128,21): warning C4514: “seal::Evaluator::rotate_rows”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(1199,21): warning C4514: “seal::Evaluator::rotate_columns”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(1271,21): warning C4514: “seal::Evaluator::rotate_vector”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(1335,21): warning C4514: “seal::Evaluator::complex_conjugate”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(1406,21): warning C4514: “seal::Evaluator::decompose_single_coeff”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\evaluator.h(1452,21): warning C4514: “seal::Evaluator::decompose”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\batchencoder.h(375,21): warning C4514: “seal::BatchEncoder::reverse_bits”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomtostd.h(32,9): warning C4514: “seal::RandomToStandardAdapter::RandomToStandardAdapter”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomtostd.h(44,21): warning C4514: “seal::RandomToStandardAdapter::operator ()”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomtostd.h(52,14): warning C4514: “seal::RandomToStandardAdapter::generator”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomtostd.h(60,38): warning C4514: “seal::RandomToStandardAdapter::min”: 未引用的内联函数已移除
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\randomtostd.h(68,38): warning C4514: “seal::RandomToStandardAdapter::max”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(42,3): warning C4514: “Params::Params”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(56,8): warning C4514: “Params::getSize”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(64,8): warning C4514: “Params::setP”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(71,8): warning C4514: “Params::setN”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(78,8): warning C4514: “Params::setK”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(85,8): warning C4514: “Params::setXrange”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(114,8): warning C4514: “Params::setBatch”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(131,3): warning C4514: “Norm::Norm”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(208,3): warning C4514: “Picture::Picture”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(238,8): warning C4514: “Picture::getSiz”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(258,8): warning C4514: “Picture::PrintParms”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(432,8): warning C4514: “Picture::setBatches”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(436,7): warning C4514: “Picture::getBatches”: 未引用的内联函数已移除
+C:\Users\coder\source\repos\Project4\Project4\baseClass.h(513,15): warning C4514: “SharePic::getfx”: 未引用的内联函数已移除
+  正在生成代码
+C:\Users\coder\Desktop\SEAL-3.3.0\native\src\seal\ckks.h(98): warning C4710: “void __cdecl seal::CKKSEncoder::encode_internal<double,void>(class std::vector<double,class std::allocator<double> > const & __ptr64,class std::array<unsigned __int64,4>,double,class seal::Plaintext & __ptr64,class seal::MemoryPoolHandle) __ptr64”: 函数未内联
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(604): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xstring(4977): warning C4711: 为自动内联扩展选定了函数“class std::basic_istream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::operator>><char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_istream<char,struct std::char_traits<char> > & __ptr64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __ptr64)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(259): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(273): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(290): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(318): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xutility(4163): warning C4711: 为自动内联扩展选定了函数“int * __ptr64 __cdecl std::_Copy_memmove<int * __ptr64,int * __ptr64>(int * __ptr64,int * __ptr64,int * __ptr64)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xutility(4311): warning C4711: 为自动内联扩展选定了函数“unsigned __int64 * __ptr64 __cdecl std::_Copy_memmove<unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64>(unsigned __int64 const * __ptr64,unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xutility(4311): warning C4711: 为自动内联扩展选定了函数“unsigned __int64 * __ptr64 __cdecl std::_Copy_memmove<unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64>(unsigned __int64 const * __ptr64,unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64)”
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(127): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(141): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(158): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Users\coder\source\repos\Project4\Project4\CKKS.cpp(186): warning C4711: 为自动内联扩展选定了函数“double __cdecl pow<double,int,0>(double,int)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xutility(4163): warning C4711: 为自动内联扩展选定了函数“int * __ptr64 __cdecl std::_Copy_memmove<int * __ptr64,int * __ptr64>(int * __ptr64,int * __ptr64,int * __ptr64)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xutility(4311): warning C4711: 为自动内联扩展选定了函数“unsigned __int64 * __ptr64 __cdecl std::_Copy_memmove<unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64>(unsigned __int64 const * __ptr64,unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xutility(4311): warning C4711: 为自动内联扩展选定了函数“unsigned __int64 * __ptr64 __cdecl std::_Copy_memmove<unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64>(unsigned __int64 const * __ptr64,unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xutility(4163): warning C4711: 为自动内联扩展选定了函数“int * __ptr64 __cdecl std::_Copy_memmove<int * __ptr64,int * __ptr64>(int * __ptr64,int * __ptr64,int * __ptr64)”
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(193): warning C4711: 为自动内联扩展选定了函数“class seal::PublicKey const & __ptr64 __cdecl seal::KeyGenerator::public_key(void)const __ptr64”
+C:\Users\coder\source\repos\Project4\Project4\cipherProcess.h(194): warning C4711: 为自动内联扩展选定了函数“class seal::SecretKey const & __ptr64 __cdecl seal::KeyGenerator::secret_key(void)const __ptr64”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xutility(4311): warning C4711: 为自动内联扩展选定了函数“unsigned __int64 * __ptr64 __cdecl std::_Copy_memmove<unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64>(unsigned __int64 const * __ptr64,unsigned __int64 const * __ptr64,unsigned __int64 * __ptr64)”
+D:\Program\Visual Studio\VC\Tools\MSVC\14.29.30037\include\xmemory(1804): warning C4711: 为自动内联扩展选定了函数“double * __ptr64 __cdecl std::_Zero_range<double * __ptr64>(double * __ptr64 const,double * __ptr64 const)”
+  1 of 2959 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Project4.vcxproj -> C:\Users\coder\source\repos\Project4\x64\Release\Project4.exe
